@@ -1,0 +1,163 @@
+*{ /* 0 padding 0 magrin for everything*/
+    margin : 0 ;
+    padding: 0 ;
+}
+/* home page style gradient*/
+body {
+    background: linear-gradient(#200016, #10001f);
+    height: 100vh ;
+    font-family: system-ui;
+    
+}
+a{    /*links */
+    text-decoration: none;
+    color: #fff;
+}
+header{  /*navigation bar*/
+    display : flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin : 15px;
+    
+
+}
+
+header ul  {
+    display : flex ;
+    justify-content: center ;
+    align-items:center ;
+    list-style : none ;
+    
+}
+header ul li{  /*mmargin right to lists */
+    margin-right: 20px;
+}
+
+header ul li a {   /*links border and padding*/
+  
+    padding: 6px  15px;
+    border-radius: 20px;
+    
+}
+
+header ul li a:hover  { /*hover on links in nav bar */
+    background: rgb(241, 221, 1);
+    color: #200016;
+}
+
+h2{   /*myron css*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color:white;
+    
+}
+h2 a:hover{ /*myron mouse hover*/
+  
+  color: rgb(195, 255, 0);
+  padding: 2px;
+ 
+}
+/*background image */
+.background-image{
+  background-image: url("images/shopping2.jpg");
+  background-size: cover ;
+  background-repeat : no-repeat;
+  height: 100vh;
+  opacity : 0.8;
+}
+
+/*Section css */
+.section {
+  
+  width: 100%;
+  min-height: 79vh;
+ height:fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+  
+  .section h1 {  /*Find it but it love it  style*/
+    
+    text-align:center;
+    font-size: 4rem;
+    font-family: "Cookie";
+    padding: 10px;
+    opacity: 0.7;
+    color: white ;
+    background-color: #030303;
+    
+  }
+  /*sidebar navigation style*/
+  .sidenav {
+    height: 90%;
+    width: 0 ;
+    position: fixed;
+    z-index: 1;
+    top: 1;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  /* href sidebar style */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ebe5e5;
+    display: block;
+    transition: 0.3s;
+  }
+  /*category style */
+  .sidenav h4 {
+    padding: 4px 8px 8px 32px;
+    font-size: 30px;
+    color: #fcac00;
+  }
+  /* mouse hover sidbar elements */
+  .sidenav a:hover {
+    color: #9f0707;
+  }
+  /* X style */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+   
+  }
+ /* when the height of the screen is less than 450px, add a smaller padding and font-size*/
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    
+    .sidenav a {font-size: 18px;}
+  }
+  /* Explore style */
+    .sidebar{
+    
+      font-size:30px;
+      cursor:pointer;
+        color: #000000;
+       background-color: lightgreen;
+       padding: 5px;
+       border-radius: 10px;
+       text-align: right;
+      opacity: 0.9;
+      }
+  
+
+  /*Footer style */
+  .footer {
+    left: 0px;
+    bottom: 0px;
+    right: 0px; 
+    width: 100%;
+    color: rgb(0, 255, 242);
+    text-align: center;
+    }
+   
+
+  

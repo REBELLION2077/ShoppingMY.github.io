@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang = "en">
+    <head>
+     <meta chardset = "UTF-8">
+                <link rel = "stylesheet " href="style.css">
+        <title> Shopping </title>
+         <!--  side bar javascript-->
+        <script> 
+         
+          function goTo()
+{
+    location.href = document.getElementById('link_id').value;
+}
+          function openNav() {
+                        document.getElementById("mySidenav").style.width = "250px";
+                      }
+                      
+                      function closeNav() {
+                        document.getElementById("mySidenav").style.width = "0";
+                      }
+
+        </script>
+    </head>
+<body>
+   
+    <header>
+        <!-- M Y R O N  href-->
+        <h2 > <a href="index.html" class="logo" >  M Y R O N</a></h2>
+         <!-- NAVIGATION BAR  -->
+                    <ul>
+                        <li><a href="#"> Home </a> </li>
+                        <li><a href="#"> Our Services </a> </li>
+                        <li><a href="#"> Contact Us </a> </li>
+                        <li><a href="#"> Daily deals  </a> </li>
+                        <li><a href="#"> My Account  </a> </li>
+                <div class="cart">
+                    <!-- your cart -->
+                    <li><a href="#">  <img src="images/cart.png" alt="cart png " width="45" height="45" style="vertical-align:middle;margin:1px 20px">  </a></li>
+                   </div>
+            </ul>
+            
+            </header>
+            <div class = "background-image "> 
+                <!-- sidebar navagition -->
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                     <!-- SIDEBAR NAVIGATION href -->
+                    <h4 >Category</h4>
+                    <a href="#"> FAQ  </a>
+                    <a href="#">Electronics </a>
+                    <a href="#">Cars</a>
+                    <a href="#">Supermarket</a>
+                    <a href="#">Phones</a>
+                    <a href="#">Sports</a>
+                    <a href="#">Computing</a>
+                    <a href="#">Health & beauty</a>
+                    <a href="#">Furniture & home </a>
+                </div>
+               
+                
+                   <!-- main statemnt h1  -->
+            <div class="section">
+                 
+                    <h1>Find it, love it, buy it.</h1>
+                    
+                      
+                      
+                         
+                      
+                    </div>
+                     <!-- Explore button -->
+                    <span class = "sidebar"  onclick="openNav()">&#9776; EXPLORE  </span>
+                   
+                 
+                
+           
+                    
+        
+
+        </div>
+            <!-- footer --> 
+        <div class="footer">  
+            @Copyright <a href="index.html"> M Y R O N </a> 2022- All Right Reserved.   
+            </div>  
+            
+      
+ 
+
+</body>
+
+
+
+
+
+
+</html>
